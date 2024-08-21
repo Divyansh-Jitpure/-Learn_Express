@@ -1,4 +1,5 @@
 import express from "express";
+import { codingQuotes } from "./codingQotes.mjs";
 
 const app = express();
 app.use(express.json());
@@ -67,6 +68,16 @@ app.get("/api/users/:id", (request, response) => {
 // sub route
 app.get("/api/products", (request, response) => {
   response.send([{ id: 123, name: "Quest 3", price: "54000" }]);
+});
+
+// Coding Quotes API
+function getRandomNumber() {
+  return Math.floor(Math.random() * 201);
+}
+
+app.get("/api/quotes", (request, response) => {
+  const programmingQuote = codingQuotes[getRandomNumber()].quote;
+  response.send({ programmingQuote });
 });
 
 // Put request
