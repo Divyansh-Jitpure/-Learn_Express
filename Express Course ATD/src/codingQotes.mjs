@@ -758,4 +758,372 @@ export const codingQuotes = [
     quote:
       "The best performance improvement is the transition from the nonworking state to the working state.",
   },
+  {
+    id: 201,
+    quote:
+      "The best way to start programming is to think of a problem that needs solving.",
+  },
+  {
+    id: 202,
+    quote:
+      "Good software development is a mix of art, science, and creativity.",
+  },
+  { id: 203, quote: "A clean code is a clean mind." },
+  {
+    id: 204,
+    quote:
+      "Software engineering is not about writing code; it’s about making things work.",
+  },
+  {
+    id: 205,
+    quote:
+      "Writing code is like writing a book; you need to think of the readers.",
+  },
+  {
+    id: 206,
+    quote: "Software is a great combination between artistry and engineering.",
+  },
+  { id: 207, quote: "Programming is the closest thing we have to magic." },
+  {
+    id: 208,
+    quote:
+      "The best tools can’t help bad thinking, but they can help good thinking be even better.",
+  },
+  {
+    id: 209,
+    quote:
+      "A good programmer is not someone who knows every algorithm but knows when to use the right one.",
+  },
+  {
+    id: 210,
+    quote:
+      "The most important property of a program is whether it accomplishes the intention of its user.",
+  },
+  {
+    id: 211,
+    quote:
+      "The only thing more dangerous than a bad program is a bad program with a good interface.",
+  },
+  { id: 212, quote: "Understanding code is as important as writing it." },
+  {
+    id: 213,
+    quote:
+      "Programming is a skill best acquired by practice and example rather than from books.",
+  },
+  {
+    id: 214,
+    quote:
+      "A programming language that doesn’t change the way you think is not worth learning.",
+  },
+  {
+    id: 215,
+    quote:
+      "Any fool can write code that a computer can understand. Good programmers write code that humans can understand.",
+  },
+  { id: 216, quote: "Simplicity is the soul of efficiency." },
+  {
+    id: 217,
+    quote:
+      "Software is like a garden: it must be constantly tended and nurtured.",
+  },
+  {
+    id: 218,
+    quote: "Programming without a plan is like exploring a cave without a map.",
+  },
+  {
+    id: 219,
+    quote:
+      "A complex system that works is invariably found to have evolved from a simple system that worked.",
+  },
+  {
+    id: 220,
+    quote:
+      "When debugging, novices insert corrective code; experts remove defective code.",
+  },
+  { id: 221, quote: "To iterate is human, to recurse divine." },
+  {
+    id: 222,
+    quote:
+      "An evolving system increases its complexity unless work is done to reduce it.",
+  },
+  { id: 223, quote: "Learning to program is learning to think." },
+  {
+    id: 224,
+    quote:
+      "The key to performance is elegance, not battalions of special cases.",
+  },
+  {
+    id: 225,
+    quote:
+      "If the code and the comments disagree, then both are probably wrong.",
+  },
+  { id: 226, quote: "The best code is no code at all." },
+  { id: 227, quote: "Code should run as fast as necessary, but no faster." },
+  {
+    id: 228,
+    quote:
+      "The greatest enemy of knowledge is not ignorance, it is the illusion of knowledge.",
+  },
+  {
+    id: 229,
+    quote:
+      "Every piece of logic should be tested. If you can't test it, rewrite it.",
+  },
+  { id: 230, quote: "First, solve the problem. Then, write the code." },
+  {
+    id: 231,
+    quote:
+      "Without requirements or design, programming is the art of adding bugs to an empty text file.",
+  },
+  {
+    id: 232,
+    quote:
+      "The difference between theory and practice is that in theory, there is no difference.",
+  },
+  { id: 233, quote: "An API is only as good as its documentation." },
+  {
+    id: 234,
+    quote: "Testing is not about finding bugs. It’s about building confidence.",
+  },
+  { id: 235, quote: "The best error message is the one that never shows up." },
+  {
+    id: 236,
+    quote:
+      "There are two ways of constructing a software design: One way is to make it so simple that there are obviously no deficiencies. The other way is to make it so complicated that there are no obvious deficiencies.",
+  },
+  {
+    id: 237,
+    quote:
+      "A language that doesn’t affect the way you think about programming is not worth knowing.",
+  },
+  {
+    id: 238,
+    quote:
+      "The most efficient way to write secure and reliable applications is to write less code.",
+  },
+  {
+    id: 239,
+    quote:
+      "The goal of software engineering is to control complexity, not to create it.",
+  },
+  {
+    id: 240,
+    quote:
+      "Programming is a skill you can’t acquire in a short time, it needs a lot of practice and patience.",
+  },
+  {
+    id: 241,
+    quote:
+      "One of the best programming skills you can have is knowing when to walk away for a while.",
+  },
+  {
+    id: 242,
+    quote:
+      "The first step of any project is the hardest. The last step is the easiest.",
+  },
+  { id: 243, quote: "The best way to learn programming is by doing." },
+  {
+    id: 244,
+    quote:
+      "The art of debugging is figuring out what you really told your program to do rather than what you thought you told it to do.",
+  },
+  { id: 245, quote: "Programming is the art of thinking, not typing." },
+  {
+    id: 246,
+    quote:
+      "The best optimizations are made by leaving out what doesn’t matter.",
+  },
+  { id: 247, quote: "A program that has not been tested does not work." },
+  {
+    id: 248,
+    quote:
+      "A good programmer looks both ways before crossing a one-way street.",
+  },
+  { id: 249, quote: "Don't comment bad code—rewrite it." },
+  {
+    id: 250,
+    quote: "Coding is not just code, that is a live thing to serve everyone!",
+  },
+  {
+    id: 251,
+    quote:
+      "Refactoring is a disciplined technique for restructuring an existing body of code, altering its internal structure without changing its external behavior.",
+  },
+  {
+    id: 252,
+    quote:
+      "Good code is short, simple, and symmetrical—the challenge is figuring out how to get there.",
+  },
+  {
+    id: 253,
+    quote:
+      "Code is like clay, you can mold it however you want, but be careful, one wrong move, and it crumbles.",
+  },
+  { id: 254, quote: "Code is poetry." },
+  { id: 255, quote: "A program is a building of thought." },
+  {
+    id: 256,
+    quote: "There’s no such thing as perfect code—only better than before.",
+  },
+  {
+    id: 257,
+    quote:
+      "Write code as if the next person to maintain it is a psychopath and knows where you live.",
+  },
+  {
+    id: 258,
+    quote:
+      "It's not about having the right opportunities, it's about handling the opportunities right.",
+  },
+  {
+    id: 259,
+    quote:
+      "Programmers are constantly making things more efficient, and it is a race to get to zero.",
+  },
+  { id: 260, quote: "Code like a novice, debug like a pro." },
+  { id: 261, quote: "Software is never finished; it's only released." },
+  {
+    id: 262,
+    quote:
+      "The purpose of abstraction is not to be vague, but to create a new semantic level in which one can be absolutely precise.",
+  },
+  {
+    id: 263,
+    quote: "The hardest bugs to fix are the ones you thought were impossible.",
+  },
+  {
+    id: 264,
+    quote: "Write code as if you had to support it for the rest of your life.",
+  },
+  {
+    id: 265,
+    quote:
+      "Programming isn’t about what you know; it’s about what you can figure out.",
+  },
+  {
+    id: 266,
+    quote:
+      "The best method for accelerating a computer is the one that boosts it by 9.8 m/s².",
+  },
+  { id: 267, quote: "Don’t just code—craft a solution." },
+  {
+    id: 268,
+    quote:
+      "The best programs are the ones written when the programmer is supposed to be working on something else.",
+  },
+  { id: 269, quote: "When in doubt, leave it out." },
+  { id: 270, quote: "Programming is a social activity." },
+  {
+    id: 271,
+    quote:
+      "One of the hardest things to do in programming is not to write code.",
+  },
+  {
+    id: 272,
+    quote:
+      "The most important property of a program is whether it accomplishes the intention of its user.",
+  },
+  {
+    id: 273,
+    quote: "The real world is messy; good software should cope with it.",
+  },
+  {
+    id: 274,
+    quote:
+      "In programming, the hard part isn’t solving problems, it’s deciding what problems to solve.",
+  },
+  { id: 275, quote: "Programming is not about typing, it’s about thinking." },
+  {
+    id: 276,
+    quote:
+      "Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.",
+  },
+  {
+    id: 277,
+    quote: "If you don’t write your code, others will write it for you.",
+  },
+  {
+    id: 278,
+    quote:
+      "A good programmer is someone who always looks both ways before crossing a one-way street.",
+  },
+  { id: 279, quote: "It’s not a bug; it’s an undocumented feature." },
+  {
+    id: 280,
+    quote:
+      "The best performance improvement is the transition from the nonworking state to the working state.",
+  },
+  {
+    id: 281,
+    quote:
+      "Software design is about taking the simplest path that will solve the problem.",
+  },
+  {
+    id: 282,
+    quote: "A program is never less than the intention of its author.",
+  },
+  {
+    id: 283,
+    quote:
+      "Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it.",
+  },
+  { id: 284, quote: "Write code for people, not machines." },
+  {
+    id: 285,
+    quote:
+      "The first 90 percent of the code accounts for the first 90 percent of the development time. The remaining 10 percent of the code accounts for the other 90 percent of the development time.",
+  },
+  { id: 286, quote: "Make it work, make it right, make it fast." },
+  {
+    id: 287,
+    quote:
+      "A well-written program is its own heaven; a poorly written program is its own hell.",
+  },
+  { id: 288, quote: "Optimization hinders evolution." },
+  { id: 289, quote: "The best way to learn to code is to code." },
+  {
+    id: 290,
+    quote:
+      "Any code of your own that you haven’t looked at for six or more months might as well have been written by someone else.",
+  },
+  { id: 291, quote: "Never stop learning; never stop coding." },
+  {
+    id: 292,
+    quote: "A program is a recipe that you write once and make infinite times.",
+  },
+  {
+    id: 293,
+    quote:
+      "Code should be written to be read by humans, and incidentally to be executed by computers.",
+  },
+  {
+    id: 294,
+    quote:
+      "A programming language is low level when its programs require attention to the irrelevant.",
+  },
+  {
+    id: 295,
+    quote:
+      "Programming is not about what you know; it’s about what you can figure out.",
+  },
+  {
+    id: 296,
+    quote: "Simple things should be simple; complex things should be possible.",
+  },
+  {
+    id: 297,
+    quote:
+      "The best debugging tool is still careful thought, coupled with judiciously placed print statements.",
+  },
+  {
+    id: 298,
+    quote:
+      "The first rule of programming: any piece of software reflects the organizational structure that produced it.",
+  },
+  {
+    id: 299,
+    quote:
+      "In programming, as in everything else, to be in error is to be reborn.",
+  },
+  { id: 300, quote: "The best code is the one that never has to be written." },
 ];

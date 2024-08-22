@@ -76,8 +76,8 @@ function getRandomNumber() {
 }
 
 app.get("/api/quotes", (request, response) => {
-  const programmingQuote = codingQuotes[getRandomNumber()].quote;
-  response.send({ programmingQuote });
+  const quote = codingQuotes[getRandomNumber()].quote;
+  response.send({ quote });
 });
 
 // Put request
