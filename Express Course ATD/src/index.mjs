@@ -13,6 +13,7 @@ const mockUsers = [
   { id: 4, userName: "cj", displayName: "CJ" },
 ];
 
+// Get request
 // Route
 app.get("/", (request, response) => {
   response.status(201).send({ msg: "Hello" });
