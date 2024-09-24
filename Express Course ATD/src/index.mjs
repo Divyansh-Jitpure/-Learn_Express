@@ -82,15 +82,6 @@ app.get("/api/quotes", (request, response) => {
 });
 
 // Put request
-app.put("/api/users/:id", (req, res) => {
-  const {
-    body,
-    params: { id },
-  } = req;
-  const parsedId = parseInt(id);
-  if (NaN(parsedId)) return res.sendStatus(400);
-  const findUserIndex = mockUsers.findIndex((user) => user);
-});
 
 app.listen(PORT, () => {
   console.log(`Running on Port ${PORT}`);
