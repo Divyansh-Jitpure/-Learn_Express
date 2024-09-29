@@ -9,6 +9,7 @@ app.use(usersRouter);
 app.use(qotesAPIRouter);
 app.use(productsRouter);
 
+// Middleware Example
 // const loggingMiddleware = (req, res, next) => {
 //   console.log(`${req.method} - ${req.url}`);
 //   next();
