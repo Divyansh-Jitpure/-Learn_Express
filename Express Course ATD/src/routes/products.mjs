@@ -6,7 +6,7 @@ const router = Router();
 router.get("/api/products", (request, response) => {
   console.log(request.headers.cookie);
   console.log(request.cookies);
-  console.log(request.signedCookies.Hello);
+  console.log(request.signedCookies);
   if (request.signedCookies.Hello && request.signedCookies.Hello === "world")
     return response.send([{ id: 123, name: "Quest 3", price: "54000" }]);
 
