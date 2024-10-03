@@ -1,23 +1,12 @@
 import express from "express";
-import usersRouter from "./routes/users.mjs";
-import qotesAPIRouter from "./routes/quotesAPI.mjs";
-import productsRouter from "./routes/products.mjs";
+import routes from "./routes/index.mjs";
 import cookieParser from "cookie-parser";
+import { query } from "express-validator";
 
 const app = express();
 app.use(express.json());
 app.use(cookieParser("secret"));
-app.use(usersRouter);
-app.use(qotesAPIRouter);
-app.use(productsRouter);
-
-// Middleware Example
-// const loggingMiddleware = (req, res, next) => {
-//   console.log(`${req.method} - ${req.url}`);
-//   next();
-// };
-
-// app.use(loggingMiddleware);
+app.use(routes);
 
 const PORT = process.env.PORT || 3000;
 
@@ -31,3 +20,11 @@ app.get("/", (request, response) => {
 app.listen(PORT, () => {
   console.log(`Running on Port ${PORT}`);
 });
+
+// Middleware Example
+// const loggingMiddleware = (req, res, next) => {
+//   console.log(`${req.method} - ${req.url}`);
+//   next();
+// };
+
+// app.use(loggingMiddleware);
