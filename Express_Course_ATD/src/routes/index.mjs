@@ -10,3 +10,11 @@ router.use(productsRouter);
 router.use(qotesAPIRouter);
 
 export default router;
+
+// Middleware Example
+// const loggingMiddleware = (req, res, next) => {
+//   console.log(`${req.method} - ${req.url}`);
+//   next();
+// };
+
+// app.use(loggingMiddleware);

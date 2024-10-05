@@ -21,10 +21,3 @@ app.listen(PORT, () => {
   console.log(`Running on Port ${PORT}`);
 });
 
-// Middleware Example
-// const loggingMiddleware = (req, res, next) => {
-//   console.log(`${req.method} - ${req.url}`);
-//   next();
-// };
-
-// app.use(loggingMiddleware);
