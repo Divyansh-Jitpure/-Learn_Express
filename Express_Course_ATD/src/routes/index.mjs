@@ -11,7 +11,7 @@ router.use(qotesAPIRouter);
 
 export default router;
 
-// Middleware Example
+// Middleware Example of logging
 // const loggingMiddleware = (req, res, next) => {
 //   console.log(`${req.method} - ${req.url}`);
 //   next();
