@@ -2,10 +2,17 @@ import express from "express";
 import routes from "./routes/index.mjs";
 import cookieParser from "cookie-parser";
 import { query } from "express-validator";
+import session from "express-session";
 
 const app = express();
 app.use(express.json());
 app.use(cookieParser("secret"));
+app.use(
+  session({
+    secret: "djansh",
+    saveUninitialized: "",
+  })
+);
 app.use(routes);
 
 const PORT = process.env.PORT || 3000;
@@ -20,4 +27,3 @@ app.get("/", (request, response) => {
 app.listen(PORT, () => {
   console.log(`Running on Port ${PORT}`);
 });
-
